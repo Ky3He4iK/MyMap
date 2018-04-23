@@ -170,6 +170,8 @@ fun main(args: Array<String>) {
                 } else
                     print("usage: `del <key>`")
             } else if (input.startsWith("del_v")) {
+                println("Hot working yes")
+                continue
                 if (input.length > "del_v ".length) {
                     val value = input.substring("del_v ".length)
                     if (containsValue(value)) {
